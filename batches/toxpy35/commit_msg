@@ -1,0 +1,23 @@
+Stop to use the __future__ module.
+
+The __future__ module [1] was used in this context to ensure compatibility
+between python 2 and python 3.
+
+We previously dropped the support of python 2.7 [2] and now we only support
+python 3 so we don't need to continue to use this module and the imports
+listed below.
+
+Imports commonly used and their related PEPs:
+- `division` is related to PEP 238 [3]
+- `print_function` is related to PEP 3105 [4]
+- `unicode_literals` is related to PEP 3112 [5]
+- `with_statement` is related to PEP 343 [6]
+- `absolute_import` is related to PEP 328 [7]
+
+[1] https://docs.python.org/3/library/__future__.html
+[2] https://governance.openstack.org/tc/goals/selected/ussuri/drop-py27.html
+[3] https://www.python.org/dev/peps/pep-0238
+[4] https://www.python.org/dev/peps/pep-3105
+[5] https://www.python.org/dev/peps/pep-3112
+[6] https://www.python.org/dev/peps/pep-0343
+[7] https://www.python.org/dev/peps/pep-0328

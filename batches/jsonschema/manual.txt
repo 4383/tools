@@ -1,0 +1,3 @@
+openstack/refstack/src/branch/master/requirements.txt#n15 : jsonschema>=2.0.0,<3.0.0
+openstack/tempest-lib/src/branch/master/requirements.txt#n8 : jsonschema!=2.5.0,<3.0.0,>=2.0.0 # MIT
+openstack/upstream-institute-virtual-environment/src/branch/master/elements/upstream-training/static/tmp/requirements.txt#n135 : jsonschema==3.0.2

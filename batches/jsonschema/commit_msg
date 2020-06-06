@@ -1,0 +1,9 @@
+Cap jsonschema 3.2.0 as the minimal version
+
+Previous versions of jsonschema (<3.2.0) doesn't support python 3.8 [1].
+Python 3.8 is part of the victoria supported runtimes [2] so we now force
+to use jsonschema version 3.2.0 to avoid issues, remove ambiguity and ensure
+that everything works with python 3 in general.
+
+[1] https://github.com/Julian/jsonschema/pull/627
+[2] https://governance.openstack.org/tc/reference/runtimes/victoria.html#python-runtimes-for-victoria
