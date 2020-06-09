@@ -1,11 +1,11 @@
 #!/bin/bash
 set -x
 set -e
-if [ -d /tmp/mock ]; then
+if [ -d tmp/ ]; then
     rm -rf tmp/
 fi
 
-mkdir /tmp/mock
+mkdir tmp/
 python3.8 -m venv tmp/.venv
 source tmp/.venv/bin/activate
 pip install zimports
@@ -15,6 +15,11 @@ topic="drop_mock"
 if [ -f ignored-gerrit.txt ]; then
     rm -rf ignored-gerrit.txt
 fi
+touch ignored-gerrit.txt
+if [ -f skipped.txt ]; then
+    rm -rf skipped.txt
+fi
+touch skipped.txt
 if [ -f errors.txt ]; then
     rm -rf errors.txt
 fi
@@ -29,7 +34,6 @@ while read repo; do
     git clone git@github.com:${repo}
     cd ${project_name}
     git checkout -b ${topic}
-    sleep 5
     set +e
     git review -s
     if [ "$?" != "0" ]; then
@@ -39,7 +43,6 @@ while read repo; do
         continue
     fi
     set -e
-    sleep 5
     echo $(pwd)
     if [ -f lower-constraints.txt ]; then
         sed -i --file ${base}/rules-requirements.sed lower-constraints.txt
@@ -53,8 +56,14 @@ while read repo; do
     if [ -f requirements.txt ]; then
         sed -i --file ${base}/rules-requirements.sed requirements.txt
     fi
-    find . -type f -print0 | xargs -0 sed -i --file ${base}/rules.sed
+    find . -path ./.git -prune -o -type f -print0 | xargs -0 sed -i --file ${base}/rules.sed
 
+    # No changes applied we don't need we can move to the next project
+    if [ -z "$(git status --short)" ]; then
+        echo ${project_name} >> ${base}/skipped.txt
+        cd ${base}
+        continue
+    fi
     git add .
     if [ "1" = "$(git status --short | wc -l)" ] && \
        [ ! -z "$(git status --short | grep lower-constraints)" ]; then

@@ -1,0 +1,5 @@
+qinling-dashboard
+tacker
+tripleo-common
+ui-cookiecutter
+openstack-armada-app
