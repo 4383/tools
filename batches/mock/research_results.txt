@@ -1,0 +1,456 @@
+https://opendev.org/openstack/adjutant-ui/src/branch/master/lower-constraints.txt#n40 : mock==2.0
+https://opendev.org/openstack/ansible-role-collect-logs/src/branch/master/test-requirements.txt#n1 : mock
+https://opendev.org/openstack/ansible-role-collect-logs/src/branch/master/test-requirements.txt#n4 : pytest-mock
+https://opendev.org/openstack/automaton/src/branch/master/lower-constraints.txt#n20 : mock==2.0.0
+https://opendev.org/openstack/barbican-ui/src/branch/master/test-requirements.txt#n13 : mock>=2.0.0 # BSD
+https://opendev.org/openstack/bashate/src/branch/master/test-requirements.txt#n6 : mock>=1.2
+https://opendev.org/openstack/bifrost/src/branch/master/lower-constraints.txt#n21 : mock==2.0.0
+https://opendev.org/openstack/blazar/src/branch/master/lower-constraints.txt#n43 : mock==2.0.0
+https://opendev.org/openstack/blazar-dashboard/src/branch/master/lower-constraints.txt#n21 : mock==2.0.0
+https://opendev.org/openstack/blazar-dashboard/src/branch/master/test-requirements.txt#n13 : mock>=2.0.0 # BSD
+https://opendev.org/openstack/blazar-nova/src/branch/master/lower-constraints.txt#n51 : mock==2.0.0
+https://opendev.org/openstack/blazar-nova/src/branch/master/test-requirements.txt#n8 : mock>=2.0.0 # BSD
+https://opendev.org/openstack/castellan/src/branch/master/lower-constraints.txt#n28 : mock==2.0.0
+https://opendev.org/openstack/ceilometer/src/branch/master/lower-constraints.txt#n12 : mock==2.0.0
+https://opendev.org/openstack/ceilometer-powervm/src/branch/master/lower-constraints.txt#n29 : mock==2.0.0
+https://opendev.org/openstack/ceilometer-powervm/src/branch/master/test-requirements.txt#n14 : mock>=2.0.0 # BSD
+https://opendev.org/openstack/charm-aodh/src/branch/master/test-requirements.txt#n11 : mock>=1.2
+https://opendev.org/openstack/charm-barbican/src/branch/master/test-requirements.txt#n11 : mock>=1.2
+https://opendev.org/openstack/charm-barbican-softhsm/src/branch/master/src/test-requirements.txt#n6 : mock>=1.2
+https://opendev.org/openstack/charm-barbican-softhsm/src/branch/master/src/test-requirements.txt#n33 : pyudev  # for ceph-* charm unit tests (not mocked?)
+https://opendev.org/openstack/charm-barbican-softhsm/src/branch/master/test-requirements.txt#n10 : mock>=1.2
+https://opendev.org/openstack/charm-barbican-vault/src/branch/master/test-requirements.txt#n11 : mock>=1.2
+https://opendev.org/openstack/charm-ceilometer/src/branch/master/test-requirements.txt#n6 : mock>=1.2
+https://opendev.org/openstack/charm-ceilometer/src/branch/master/test-requirements.txt#n12 : pyudev  # for ceph-* charm unit tests (not mocked?)
+https://opendev.org/openstack/charm-ceilometer-agent/src/branch/master/test-requirements.txt#n12 : mock>=1.2
+https://opendev.org/openstack/charm-ceilometer-agent/src/branch/master/test-requirements.txt#n16 : pyudev              # for ceph-* charm unit tests (need to fix the ceph-* charm unit tests/mocking)
+https://opendev.org/openstack/charm-ceph-fs/src/branch/master/src/test-requirements.txt#n6 : mock>=1.2
+https://opendev.org/openstack/charm-ceph-fs/src/branch/master/src/test-requirements.txt#n13 : pyudev  # for ceph-* charm unit tests (not mocked?)
+https://opendev.org/openstack/charm-ceph-fs/src/branch/master/test-requirements.txt#n10 : mock>=1.2
+https://opendev.org/openstack/charm-ceph-mon/src/branch/master/test-requirements.txt#n12 : mock>=1.2
+https://opendev.org/openstack/charm-ceph-mon/src/branch/master/test-requirements.txt#n16 : pyudev              # for ceph-* charm unit tests (need to fix the ceph-* charm unit tests/mocking)
+https://opendev.org/openstack/charm-ceph-osd/src/branch/master/test-requirements.txt#n12 : mock>=1.2
+https://opendev.org/openstack/charm-ceph-osd/src/branch/master/test-requirements.txt#n16 : pyudev              # for ceph-* charm unit tests (need to fix the ceph-* charm unit tests/mocking)
+https://opendev.org/openstack/charm-ceph-proxy/src/branch/master/test-requirements.txt#n12 : mock>=1.2
+https://opendev.org/openstack/charm-ceph-proxy/src/branch/master/test-requirements.txt#n16 : pyudev              # for ceph-* charm unit tests (need to fix the ceph-* charm unit tests/mocking)
+https://opendev.org/openstack/charm-ceph-radosgw/src/branch/master/test-requirements.txt#n12 : mock>=1.2
+https://opendev.org/openstack/charm-ceph-radosgw/src/branch/master/test-requirements.txt#n16 : pyudev              # for ceph-* charm unit tests (need to fix the ceph-* charm unit tests/mocking)
+https://opendev.org/openstack/charm-ceph-rbd-mirror/src/branch/master/test-requirements.txt#n11 : mock>=1.2
+https://opendev.org/openstack/charm-cinder/src/branch/master/test-requirements.txt#n12 : mock>=1.2
+https://opendev.org/openstack/charm-cinder/src/branch/master/test-requirements.txt#n16 : pyudev              # for ceph-* charm unit tests (need to fix the ceph-* charm unit tests/mocking)
+https://opendev.org/openstack/charm-cinder-backup/src/branch/master/test-requirements.txt#n12 : mock>=1.2
+https://opendev.org/openstack/charm-cinder-backup/src/branch/master/test-requirements.txt#n16 : pyudev              # for ceph-* charm unit tests (need to fix the ceph-* charm unit tests/mocking)
+https://opendev.org/openstack/charm-cinder-backup-swift-proxy/src/branch/master/test-requirements.txt#n10 : mock>=1.2
+https://opendev.org/openstack/charm-cinder-ceph/src/branch/master/test-requirements.txt#n12 : mock>=1.2
+https://opendev.org/openstack/charm-cinder-ceph/src/branch/master/test-requirements.txt#n16 : pyudev              # for ceph-* charm unit tests (need to fix the ceph-* charm unit tests/mocking)
+https://opendev.org/openstack/charm-cinder-purestorage/src/branch/master/test-requirements.txt#n5 : mock>=1.2
+https://opendev.org/openstack/charm-designate/src/branch/master/test-requirements.txt#n10 : mock>=1.2
+https://opendev.org/openstack/charm-designate-bind/src/branch/master/test-requirements.txt#n10 : mock>=1.2
+https://opendev.org/openstack/charm-glance/src/branch/master/test-requirements.txt#n12 : mock>=1.2
+https://opendev.org/openstack/charm-glance/src/branch/master/test-requirements.txt#n16 : pyudev              # for ceph-* charm unit tests (need to fix the ceph-* charm unit tests/mocking)
+https://opendev.org/openstack/charm-glance-simplestreams-sync/src/branch/master/test-requirements.txt#n12 : mock>=1.2
+https://opendev.org/openstack/charm-glance-simplestreams-sync/src/branch/master/test-requirements.txt#n16 : pyudev              # for ceph-* charm unit tests (need to fix the ceph-* charm unit tests/mocking)
+https://opendev.org/openstack/charm-gnocchi/src/branch/master/test-requirements.txt#n11 : mock>=1.2
+https://opendev.org/openstack/charm-hacluster/src/branch/master/test-requirements.txt#n6 : mock>=1.2
+https://opendev.org/openstack/charm-hacluster/src/branch/master/test-requirements.txt#n10 : pyudev  # for ceph-* charm unit tests (not mocked?)
+https://opendev.org/openstack/charm-heat/src/branch/master/test-requirements.txt#n12 : mock>=1.2
+https://opendev.org/openstack/charm-heat/src/branch/master/test-requirements.txt#n16 : pyudev              # for ceph-* charm unit tests (need to fix the ceph-* charm unit tests/mocking)
+https://opendev.org/openstack/charm-interface-barbican-secrets/src/branch/master/test-requirements.txt#n5 : mock>=1.2
+https://opendev.org/openstack/charm-interface-bgp/src/branch/master/test-requirements.txt#n5 : mock>=1.2
+https://opendev.org/openstack/charm-interface-ceph-client/src/branch/master/test-requirements.txt#n5 : mock>=1.2
+https://opendev.org/openstack/charm-interface-ceph-rbd-mirror/src/branch/master/test-requirements.txt#n5 : mock>=1.2
+https://opendev.org/openstack/charm-interface-cinder-backend/src/branch/master/test-requirements.txt#n5 : mock>=1.2
+https://opendev.org/openstack/charm-interface-cinder-backup/src/branch/master/test-requirements.txt#n5 : mock>=1.2
+https://opendev.org/openstack/charm-interface-dashboard-plugin/src/branch/master/test-requirements.txt#n5 : mock>=1.2
+https://opendev.org/openstack/charm-interface-hacluster/src/branch/master/test-requirements.txt#n5 : mock>=1.2
+https://opendev.org/openstack/charm-interface-keystone/src/branch/master/test-requirements.txt#n5 : mock>=1.2
+https://opendev.org/openstack/charm-interface-mysql-innodb-cluster/src/branch/master/test-requirements.txt#n3 : mock>=1.2
+https://opendev.org/openstack/charm-interface-mysql-router/src/branch/master/test-requirements.txt#n3 : mock>=1.2
+https://opendev.org/openstack/charm-interface-mysql-shared/src/branch/master/test-requirements.txt#n3 : mock>=1.2
+https://opendev.org/openstack/charm-interface-neutron-load-balancer/src/branch/master/test-requirements.txt#n5 : mock>=1.2
+https://opendev.org/openstack/charm-interface-neutron-plugin/src/branch/master/test-requirements.txt#n3 : mock
+https://opendev.org/openstack/charm-interface-neutron-plugin-api-subordinate/src/branch/master/test-requirements.txt#n3 : mock
+https://opendev.org/openstack/charm-interface-nova-cell/src/branch/master/test-requirements.txt#n5 : mock>=1.2
+https://opendev.org/openstack/charm-interface-nova-compute/src/branch/master/test-requirements.txt#n5 : mock>=1.2
+https://opendev.org/openstack/charm-interface-pacemaker-remote/src/branch/master/test-requirements.txt#n5 : mock>=1.2
+https://opendev.org/openstack/charm-interface-placement/src/branch/master/test-requirements.txt#n5 : mock>=1.2
+https://opendev.org/openstack/charm-interface-service-control/src/branch/master/test-requirements.txt#n5 : mock>=1.2
+https://opendev.org/openstack/charm-keystone/src/branch/master/test-requirements.txt#n12 : mock>=1.2
+https://opendev.org/openstack/charm-keystone/src/branch/master/test-requirements.txt#n16 : pyudev              # for ceph-* charm unit tests (need to fix the ceph-* charm unit tests/mocking)
+https://opendev.org/openstack/charm-keystone-ldap/src/branch/master/src/test-requirements.txt#n6 : mock>=1.2
+https://opendev.org/openstack/charm-keystone-ldap/src/branch/master/src/test-requirements.txt#n10 : pyudev  # for ceph-* charm unit tests (not mocked?)
+https://opendev.org/openstack/charm-keystone-ldap/src/branch/master/test-requirements.txt#n10 : mock>=1.2
+https://opendev.org/openstack/charm-keystone-saml-mellon/src/branch/master/test-requirements.txt#n11 : mock>=1.2
+https://opendev.org/openstack/charm-manila/src/branch/master/src/test-requirements.txt#n5 : mock>=1.2
+https://opendev.org/openstack/charm-manila/src/branch/master/test-requirements.txt#n10 : mock>=1.2
+https://opendev.org/openstack/charm-manila-ganesha/src/branch/master/test-requirements.txt#n11 : mock>=1.2
+https://opendev.org/openstack/charm-manila-generic/src/branch/master/src/test-requirements.txt#n6 : mock>=1.2
+https://opendev.org/openstack/charm-manila-generic/src/branch/master/src/test-requirements.txt#n33 : pyudev  # for ceph-* charm unit tests (not mocked?)
+https://opendev.org/openstack/charm-manila-generic/src/branch/master/test-requirements.txt#n10 : mock>=1.2
+https://opendev.org/openstack/charm-masakari/src/branch/master/test-requirements.txt#n11 : mock>=1.2
+https://opendev.org/openstack/charm-masakari-monitors/src/branch/master/test-requirements.txt#n11 : mock>=1.2
+https://opendev.org/openstack/charm-mistral/src/branch/master/test-requirements.txt#n5 : mock>=1.2
+https://opendev.org/openstack/charm-mysql-innodb-cluster/src/branch/master/test-requirements.txt#n11 : mock>=1.2
+https://opendev.org/openstack/charm-mysql-router/src/branch/master/test-requirements.txt#n11 : mock>=1.2
+https://opendev.org/openstack/charm-neutron-api/src/branch/master/test-requirements.txt#n12 : mock>=1.2
+https://opendev.org/openstack/charm-neutron-api/src/branch/master/test-requirements.txt#n16 : pyudev              # for ceph-* charm unit tests (need to fix the ceph-* charm unit tests/mocking)
+https://opendev.org/openstack/charm-neutron-api-plugin-ovn/src/branch/master/src/test-requirements.txt#n6 : mock>=1.2
+https://opendev.org/openstack/charm-neutron-api-plugin-ovn/src/branch/master/test-requirements.txt#n7 : mock>=1.2
+https://opendev.org/openstack/charm-neutron-dynamic-routing/src/branch/master/test-requirements.txt#n11 : mock>=1.2
+https://opendev.org/openstack/charm-neutron-gateway/src/branch/master/test-requirements.txt#n12 : mock>=1.2
+https://opendev.org/openstack/charm-neutron-gateway/src/branch/master/test-requirements.txt#n16 : pyudev              # for ceph-* charm unit tests (need to fix the ceph-* charm unit tests/mocking)
+https://opendev.org/openstack/charm-neutron-openvswitch/src/branch/master/test-requirements.txt#n6 : mock>=1.2
+https://opendev.org/openstack/charm-neutron-openvswitch/src/branch/master/test-requirements.txt#n10 : pyudev  # for ceph-* charm unit tests (not mocked?)
+https://opendev.org/openstack/charm-nova-cell-controller/src/branch/master/test-requirements.txt#n11 : mock>=1.2
+https://opendev.org/openstack/charm-nova-cloud-controller/src/branch/master/test-requirements.txt#n12 : mock>=1.2
+https://opendev.org/openstack/charm-nova-cloud-controller/src/branch/master/test-requirements.txt#n16 : pyudev              # for ceph-* charm unit tests (need to fix the ceph-* charm unit tests/mocking)
+https://opendev.org/openstack/charm-nova-compute/src/branch/master/test-requirements.txt#n12 : mock>=1.2
+https://opendev.org/openstack/charm-nova-compute/src/branch/master/test-requirements.txt#n16 : pyudev              # for ceph-* charm unit tests (need to fix the ceph-* charm unit tests/mocking)
+https://opendev.org/openstack/charm-nova-lxd/src/branch/master/test-requirements.txt#n6 : mock>=1.2
+https://opendev.org/openstack/charm-nova-lxd/src/branch/master/test-requirements.txt#n29 : pyudev  # for ceph-* charm unit tests (not mocked?)
+https://opendev.org/openstack/charm-octavia/src/branch/master/test-requirements.txt#n7 : mock>=1.2
+https://opendev.org/openstack/charm-octavia-dashboard/src/branch/master/test-requirements.txt#n11 : mock>=1.2
+https://opendev.org/openstack/charm-octavia-diskimage-retrofit/src/branch/master/test-requirements.txt#n11 : mock>=1.2
+https://opendev.org/openstack/charm-openstack-dashboard/src/branch/master/test-requirements.txt#n12 : mock>=1.2
+https://opendev.org/openstack/charm-openstack-dashboard/src/branch/master/test-requirements.txt#n16 : pyudev              # for ceph-* charm unit tests (need to fix the ceph-* charm unit tests/mocking)
+https://opendev.org/openstack/charm-pacemaker-remote/src/branch/master/test-requirements.txt#n11 : mock>=1.2
+https://opendev.org/openstack/charm-panko/src/branch/master/src/test-requirements.txt#n6 : mock>=1.2
+https://opendev.org/openstack/charm-panko/src/branch/master/src/test-requirements.txt#n33 : pyudev  # for ceph-* charm unit tests (not mocked?)
+https://opendev.org/openstack/charm-panko/src/branch/master/test-requirements.txt#n10 : mock>=1.2
+https://opendev.org/openstack/charm-percona-cluster/src/branch/master/test-requirements.txt#n12 : mock>=1.2
+https://opendev.org/openstack/charm-percona-cluster/src/branch/master/test-requirements.txt#n16 : pyudev              # for ceph-* charm unit tests (need to fix the ceph-* charm unit tests/mocking)
+https://opendev.org/openstack/charm-placement/src/branch/master/src/test-requirements.txt#n6 : mock>=1.2
+https://opendev.org/openstack/charm-placement/src/branch/master/test-requirements.txt#n11 : mock>=1.2
+https://opendev.org/openstack/charm-rabbitmq-server/src/branch/master/test-requirements.txt#n6 : mock>=1.2
+https://opendev.org/openstack/charm-rabbitmq-server/src/branch/master/test-requirements.txt#n11 : pyudev  # for ceph-* charm unit tests (not mocked?)
+https://opendev.org/openstack/charm-swift-proxy/src/branch/master/test-requirements.txt#n12 : mock>=1.2
+https://opendev.org/openstack/charm-swift-proxy/src/branch/master/test-requirements.txt#n16 : pyudev              # for ceph-* charm unit tests (need to fix the ceph-* charm unit tests/mocking)
+https://opendev.org/openstack/charm-swift-storage/src/branch/master/test-requirements.txt#n12 : mock>=1.2
+https://opendev.org/openstack/charm-swift-storage/src/branch/master/test-requirements.txt#n16 : pyudev              # for ceph-* charm unit tests (need to fix the ceph-* charm unit tests/mocking)
+https://opendev.org/openstack/charm-tempest/src/branch/master/src/test-requirements.txt#n6 : mock>=1.2
+https://opendev.org/openstack/charm-tempest/src/branch/master/src/test-requirements.txt#n33 : pyudev  # for ceph-* charm unit tests (not mocked?)
+https://opendev.org/openstack/charm-tempest/src/branch/master/test-requirements.txt#n10 : mock>=1.2
+https://opendev.org/openstack/charm-trilio-data-mover/src/branch/master/test-requirements.txt#n5 : mock>=1.2
+https://opendev.org/openstack/charm-trilio-dm-api/src/branch/master/test-requirements.txt#n5 : mock>=1.2
+https://opendev.org/openstack/charm-trilio-horizon-plugin/src/branch/master/test-requirements.txt#n5 : mock>=1.2
+https://opendev.org/openstack/charm-trilio-wlm/src/branch/master/test-requirements.txt#n5 : mock>=1.2
+https://opendev.org/openstack/charm-vault/src/branch/master/test-requirements.txt#n11 : mock>=1.2
+https://opendev.org/openstack/charm-watcher/src/branch/master/src/test-requirements.txt#n6 : mock>=1.2
+https://opendev.org/openstack/charm-watcher/src/branch/master/test-requirements.txt#n11 : mock>=1.2
+https://opendev.org/openstack/charm-watcher-dashboard/src/branch/master/test-requirements.txt#n11 : mock>=1.2
+https://opendev.org/openstack/charms.ceph/src/branch/master/test-requirements.txt#n6 : mock>=1.2
+https://opendev.org/openstack/charms.openstack/src/branch/master/test-requirements.txt#n9 : mock>=1.2
+https://opendev.org/openstack/cinder/src/branch/master/lower-constraints.txt#n58 : mock==2.0.0
+https://opendev.org/openstack/cinderlib/src/branch/master/lower-constraints.txt#n2 : mock==2.0.0
+https://opendev.org/openstack/cliff/src/branch/master/lower-constraints.txt#n15 : mock==2.0.0
+https://opendev.org/openstack/cliff/src/branch/master/test-requirements.txt#n8 : mock>=2.0.0 # BSD
+https://opendev.org/openstack/cloudkitty/src/branch/master/lower-constraints.txt#n42 : mock==1.2 # BSD
+https://opendev.org/openstack/cloudkitty/src/branch/master/test-requirements.txt#n14 : mock>=1.2 # BSD
+https://opendev.org/openstack/cyborg/src/branch/master/test-requirements.txt#n10 : mock>=2.0.0 # BSD
+https://opendev.org/openstack/designate/src/branch/master/lower-constraints.txt#n127 : requests-mock==1.2.0
+https://opendev.org/openstack/designate/src/branch/master/test-requirements.txt#n11 : requests-mock>=1.2.0 # Apache-2.0
+https://opendev.org/openstack/designate-dashboard/src/branch/master/lower-constraints.txt#n45 : mock==2.0.0
+https://opendev.org/openstack/designate-dashboard/src/branch/master/test-requirements.txt#n7 : mock>=2.0.0 # BSD
+https://opendev.org/openstack/diskimage-builder/src/branch/master/lower-constraints.txt#n21 : mock==2.0.0
+https://opendev.org/openstack/diskimage-builder/src/branch/master/test-requirements.txt#n9 : mock>=2.0.0 # BSD
+https://opendev.org/openstack/dragonflow/src/branch/master/lower-constraints.txt#n57 : mock==2.0.0
+https://opendev.org/openstack/dragonflow/src/branch/master/test-requirements.txt#n8 : mock>=2.0.0 # BSD
+https://opendev.org/openstack/ec2-api/src/branch/master/lower-constraints.txt#n44 : mock==2.0.0
+https://opendev.org/openstack/election/src/branch/master/test-requirements.txt#n7 : mock>=2.0.0 # BSD
+https://opendev.org/openstack/freezer-dr/src/branch/master/lower-constraints.txt#n43 : mock==2.0.0
+https://opendev.org/openstack/freezer-dr/src/branch/master/test-requirements.txt#n8 : mock>=2.0.0
+https://opendev.org/openstack/futurist/src/branch/master/lower-constraints.txt#n23 : mock==2.0.0
+https://opendev.org/openstack/glance/src/branch/master/lower-constraints.txt#n52 : mock==2.0.0
+https://opendev.org/openstack/glance_store/src/branch/master/lower-constraints.txt#n33 : mock==2.0.0
+https://opendev.org/openstack/glance_store/src/branch/master/lower-constraints.txt#n67 : requests-mock==1.2.0
+https://opendev.org/openstack/glance_store/src/branch/master/test-requirements.txt#n16 : requests-mock>=1.2.0 # Apache-2.0
+https://opendev.org/openstack/goal-tools/src/branch/master/test-requirements.txt#n4 : requests-mock>=1.2.0 # Apache-2.0
+https://opendev.org/openstack/hacking/src/branch/master/lower-constraints.txt#n15 : mock==2.0.0
+https://opendev.org/openstack/hacking/src/branch/master/test-requirements.txt#n6 : mock>=2.0.0 # BSD
+https://opendev.org/openstack/heat/src/branch/master/lower-constraints.txt#n51 : mock==2.0.0
+https://opendev.org/openstack/heat-agents/src/branch/master/lower-constraints.txt#n63 : requests-mock==1.1.0
+https://opendev.org/openstack/heat-agents/src/branch/master/test-requirements.txt#n10 : requests-mock>=1.1.0 # Apache-2.0
+https://opendev.org/openstack/heat-cfntools/src/branch/master/lower-constraints.txt#n2 : mock==1.0
+https://opendev.org/openstack/heat-cfntools/src/branch/master/test-requirements.txt#n2 : mock>=1.0
+https://opendev.org/openstack/heat-translator/src/branch/master/lower-constraints.txt#n28 : mock==2.0.0
+https://opendev.org/openstack/ironic/src/branch/master/lower-constraints.txt#n53 : mock==4.0.2
+https://opendev.org/openstack/ironic-inspector/src/branch/master/lower-constraints.txt#n52 : mock==3.0.0
+https://opendev.org/openstack/ironic-lib/src/branch/master/lower-constraints.txt#n23 : mock==2.0.0
+https://opendev.org/openstack/ironic-prometheus-exporter/src/branch/master/lower-constraints.txt#n41 : mock==4.0.2
+https://opendev.org/openstack/ironic-python-agent/src/branch/master/lower-constraints.txt#n33 : mock==4.0.2
+https://opendev.org/openstack/ironic-ui/src/branch/master/lower-constraints.txt#n43 : mock==2.0.0
+https://opendev.org/openstack/karbor/src/branch/master/lower-constraints.txt#n54 : mock==2.0.0
+https://opendev.org/openstack/karbor-dashboard/src/branch/master/test-requirements.txt#n13 : mock>=2.0.0 # BSD
+https://opendev.org/openstack/keystone/src/branch/master/lower-constraints.txt#n22 : mock==2.0.0
+https://opendev.org/openstack/keystoneauth/src/branch/master/lower-constraints.txt#n26 : mock==2.0.0
+https://opendev.org/openstack/keystoneauth/src/branch/master/lower-constraints.txt#n53 : requests-mock==1.2.0
+https://opendev.org/openstack/keystoneauth/src/branch/master/test-requirements.txt#n18 : requests-mock>=1.2.0 # Apache-2.0
+https://opendev.org/openstack/keystonemiddleware/src/branch/master/lower-constraints.txt#n29 : mock==2.0.0
+https://opendev.org/openstack/keystonemiddleware/src/branch/master/lower-constraints.txt#n66 : requests-mock==1.2.0
+https://opendev.org/openstack/keystonemiddleware/src/branch/master/test-requirements.txt#n11 : mock>=2.0.0 # BSD
+https://opendev.org/openstack/keystonemiddleware/src/branch/master/test-requirements.txt#n13 : requests-mock>=1.2.0 # Apache-2.0
+https://opendev.org/openstack/kuryr/src/branch/master/lower-constraints.txt#n40 : mock==2.0.0
+https://opendev.org/openstack/kuryr-kubernetes/src/branch/master/lower-constraints.txt#n50 : mock==2.0.0
+https://opendev.org/openstack/kuryr-libnetwork/src/branch/master/lower-constraints.txt#n48 : mock==2.0.0
+https://opendev.org/openstack/kuryr-tempest-plugin/src/branch/master/test-requirements.txt#n9 : mock>=2.0.0 # BSD
+https://opendev.org/openstack/magnum/src/branch/master/lower-constraints.txt#n59 : mock==2.0.0
+https://opendev.org/openstack/magnum-ui/src/branch/master/lower-constraints.txt#n44 : mock==2.0.0
+https://opendev.org/openstack/manila/src/branch/master/lower-constraints.txt#n108 : requests-mock==1.2.0
+https://opendev.org/openstack/manila/src/branch/master/test-requirements.txt#n21 : requests-mock>=1.2.0 # Apache-2.0
+https://opendev.org/openstack/masakari/src/branch/master/lower-constraints.txt#n41 : mock==2.0.0
+https://opendev.org/openstack/masakari/src/branch/master/lower-constraints.txt#n90 : requests-mock==1.2.0
+https://opendev.org/openstack/masakari/src/branch/master/test-requirements.txt#n18 : requests-mock>=1.2.0 # Apache-2.0
+https://opendev.org/openstack/masakari-monitors/src/branch/master/lower-constraints.txt#n39 : mock==2.0.0
+https://opendev.org/openstack/mistral/src/branch/master/lower-constraints.txt#n15 : mock==2.0.0
+https://opendev.org/openstack/mistral/src/branch/master/lower-constraints.txt#n39 : requests-mock==1.2.0
+https://opendev.org/openstack/mistral/src/branch/master/test-requirements.txt#n12 : requests-mock>=1.2.0 # Apache-2.0
+https://opendev.org/openstack/mistral-dashboard/src/branch/master/test-requirements.txt#n10 : mock>=2.0.0 # BSD
+https://opendev.org/openstack/mistral-extra/src/branch/master/lower-constraints.txt#n9 : mock==2.0.0
+https://opendev.org/openstack/mistral-extra/src/branch/master/lower-constraints.txt#n13 : requests-mock==1.2.0
+https://opendev.org/openstack/mistral-extra/src/branch/master/test-requirements.txt#n11 : requests-mock>=1.2.0 # Apache-2.0
+https://opendev.org/openstack/mistral-lib/src/branch/master/lower-constraints.txt#n21 : mock==2.0.0
+https://opendev.org/openstack/monasca-analytics/src/branch/master/test-requirements.txt#n6 : mock>=1.0.1
+https://opendev.org/openstack/monasca-api/src/branch/master/lower-constraints.txt#n46 : mock==2.0.0
+https://opendev.org/openstack/monasca-api/src/branch/master/lower-constraints.txt#n93 : requests-mock==1.2.0
+https://opendev.org/openstack/monasca-api/src/branch/master/test-requirements.txt#n15 : requests-mock>=1.2.0 # Apache-2.0
+https://opendev.org/openstack/monasca-common/src/branch/master/lower-constraints.txt#n20 : mock==2.0.0
+https://opendev.org/openstack/monasca-common/src/branch/master/lower-constraints.txt#n43 : requests-mock==1.2.0
+https://opendev.org/openstack/monasca-common/src/branch/master/test-requirements.txt#n14 : requests-mock>=1.2.0 # Apache-2.0
+https://opendev.org/openstack/monasca-events-api/src/branch/master/lower-constraints.txt#n8 : mock==2.0
+https://opendev.org/openstack/monasca-events-api/src/branch/master/test-requirements.txt#n13 : mock>=2.0 # BSD
+https://opendev.org/openstack/monasca-log-api/src/branch/master/lower-constraints.txt#n31 : mock==2.0.0
+https://opendev.org/openstack/monasca-notification/src/branch/master/lower-constraints.txt#n25 : mock==2.0.0
+https://opendev.org/openstack/monasca-persister/src/branch/master/lower-constraints.txt#n22 : mock==2.0.0
+https://opendev.org/openstack/monasca-statsd/src/branch/master/lower-constraints.txt#n20 : mock==2.0.0
+https://opendev.org/openstack/monasca-statsd/src/branch/master/test-requirements.txt#n7 : mock>=2.0.0 # BSD
+https://opendev.org/openstack/monasca-ui/src/branch/master/lower-constraints.txt#n45 : mock==2.0.0
+https://opendev.org/openstack/monasca-ui/src/branch/master/test-requirements.txt#n8 : mock>=2.0.0 # BSD
+https://opendev.org/openstack/murano/src/branch/master/lower-constraints.txt#n53 : mock==2.0.0
+https://opendev.org/openstack/murano-agent/src/branch/master/lower-constraints.txt#n34 : mock==2.0.0
+https://opendev.org/openstack/murano-dashboard/src/branch/master/lower-constraints.txt#n47 : mock==2.0.0
+https://opendev.org/openstack/murano-pkg-check/src/branch/master/lower-constraints.txt#n18 : mock==2.0.0
+https://opendev.org/openstack/networking-baremetal/src/branch/master/lower-constraints.txt#n46 : mock==4.0.2
+https://opendev.org/openstack/networking-hyperv/src/branch/master/lower-constraints.txt#n41 : mock==2.0.0
+https://opendev.org/openstack/networking-l2gw/src/branch/master/lower-constraints.txt#n45 : mock==2.0.0
+https://opendev.org/openstack/networking-l2gw/src/branch/master/lower-constraints.txt#n115 : requests-mock==1.2.0
+https://opendev.org/openstack/networking-l2gw/src/branch/master/test-requirements.txt#n14 : requests-mock>=1.2.0 # Apache-2.0
+https://opendev.org/openstack/networking-l2gw-tempest-plugin/src/branch/master/test-requirements.txt#n18 : mock>=2.0.0 # BSD
+https://opendev.org/openstack/networking-odl/src/branch/master/lower-constraints.txt#n74 : mock==2.0.0
+https://opendev.org/openstack/networking-powervm/src/branch/master/lower-constraints.txt#n47 : mock==2.0.0
+https://opendev.org/openstack/networking-powervm/src/branch/master/test-requirements.txt#n13 : mock>=2.0.0 # BSD
+https://opendev.org/openstack/networking-sfc/src/branch/master/lower-constraints.txt#n54 : mock==2.0.0
+https://opendev.org/openstack/networking-sfc/src/branch/master/lower-constraints.txt#n125 : requests-mock==1.2.0
+https://opendev.org/openstack/networking-sfc/src/branch/master/test-requirements.txt#n8 : mock>=2.0.0 # BSD
+https://opendev.org/openstack/networking-sfc/src/branch/master/test-requirements.txt#n9 : requests-mock>=1.2.0 # Apache-2.0
+https://opendev.org/openstack/neutron/src/branch/master/lower-constraints.txt#n47 : mock==3.0.0
+https://opendev.org/openstack/neutron-fwaas/src/branch/master/lower-constraints.txt#n47 : mock==2.0.0
+https://opendev.org/openstack/neutron-fwaas/src/branch/master/lower-constraints.txt#n118 : requests-mock==1.2.0
+https://opendev.org/openstack/neutron-fwaas/src/branch/master/test-requirements.txt#n8 : mock>=2.0.0 # BSD
+https://opendev.org/openstack/neutron-fwaas/src/branch/master/test-requirements.txt#n10 : requests-mock>=1.2.0 # Apache-2.0
+https://opendev.org/openstack/neutron-fwaas-dashboard/src/branch/master/lower-constraints.txt#n47 : mock==2.0.0
+https://opendev.org/openstack/neutron-fwaas-dashboard/src/branch/master/test-requirements.txt#n10 : mock>=2.0.0 # BSD
+https://opendev.org/openstack/neutron-vpnaas/src/branch/master/lower-constraints.txt#n120 : requests-mock==1.2.0
+https://opendev.org/openstack/neutron-vpnaas/src/branch/master/test-requirements.txt#n10 : requests-mock>=1.2.0 # Apache-2.0
+https://opendev.org/openstack/neutron-vpnaas-dashboard/src/branch/master/lower-constraints.txt#n47 : mock==2.0.0
+https://opendev.org/openstack/neutron-vpnaas-dashboard/src/branch/master/test-requirements.txt#n10 : mock>=2.0.0 # BSD
+https://opendev.org/openstack/nova/src/branch/master/lower-constraints.txt#n55 : mock==3.0.0
+https://opendev.org/openstack/nova/src/branch/master/lower-constraints.txt#n138 : requests-mock==1.2.0
+https://opendev.org/openstack/nova/src/branch/master/test-requirements.txt#n10 : mock>=3.0.0 # BSD
+https://opendev.org/openstack/nova/src/branch/master/test-requirements.txt#n15 : requests-mock>=1.2.0 # Apache-2.0
+https://opendev.org/openstack/nova-powervm/src/branch/master/lower-constraints.txt#n62 : mock==2.0.0
+https://opendev.org/openstack/nova-powervm/src/branch/master/lower-constraints.txt#n151 : requests-mock==1.2.0
+https://opendev.org/openstack/nova-powervm/src/branch/master/test-requirements.txt#n14 : mock>=2.0.0 # BSD
+https://opendev.org/openstack/octavia/src/branch/master/lower-constraints.txt#n67 : mock==2.0.0
+https://opendev.org/openstack/octavia/src/branch/master/lower-constraints.txt#n136 : requests-mock==1.2.0
+https://opendev.org/openstack/octavia/src/branch/master/test-requirements.txt#n5 : requests-mock>=1.2.0 # Apache-2.0
+https://opendev.org/openstack/octavia-dashboard/src/branch/master/lower-constraints.txt#n42 : mock==2.0.0
+https://opendev.org/openstack/openstack-ansible/src/branch/master/test-requirements.txt#n9 : mock>=2.0.0 # BSD
+https://opendev.org/openstack/openstack-doc-tools/src/branch/master/lower-constraints.txt#n23 : mock==2.0.0
+https://opendev.org/openstack/openstack-doc-tools/src/branch/master/test-requirements.txt#n18 : mock>=2.0.0 # BSD
+https://opendev.org/openstack/openstack-health/src/branch/master/test-requirements.txt#n9 : mock>=2.0 # BSD
+https://opendev.org/openstack/openstacksdk/src/branch/master/lower-constraints.txt#n16 : mock==3.0.0
+https://opendev.org/openstack/openstacksdk/src/branch/master/lower-constraints.txt#n29 : requests-mock==1.2.0
+https://opendev.org/openstack/openstacksdk/src/branch/master/test-requirements.txt#n10 : mock>=3.0.0 # BSD
+https://opendev.org/openstack/openstacksdk/src/branch/master/test-requirements.txt#n14 : requests-mock>=1.2.0 # Apache-2.0
+https://opendev.org/openstack/os-brick/src/branch/master/lower-constraints.txt#n29 : mock==2.0.0
+https://opendev.org/openstack/os-collect-config/src/branch/master/test-requirements.txt#n8 : mock>=2.0.0 # BSD
+https://opendev.org/openstack/os-ken/src/branch/master/lower-constraints.txt#n52 : mock==2.0.0
+https://opendev.org/openstack/os-loganalyze/src/branch/master/test-requirements.txt#n9 : mock>=1.2
+https://opendev.org/openstack/os-performance-tools/src/branch/master/test-requirements.txt#n13 : mock>=1.2
+https://opendev.org/openstack/os-service-types/src/branch/master/test-requirements.txt#n13 : requests-mock>=1.2.0 # Apache-2.0
+https://opendev.org/openstack/os-win/src/branch/master/lower-constraints.txt#n21 : mock==2.0.0
+https://opendev.org/openstack/osc-lib/src/branch/master/lower-constraints.txt#n79 : requests-mock==1.1.0
+https://opendev.org/openstack/osc-lib/src/branch/master/test-requirements.txt#n9 : requests-mock>=1.1.0 # Apache-2.0
+https://opendev.org/openstack/oslo.config/src/branch/master/lower-constraints.txt#n35 : requests_mock==1.5.0
+https://opendev.org/openstack/oslo.config/src/branch/master/test-requirements.txt#n24 : requests_mock>=1.5.0 # Apache-2.0
+https://opendev.org/openstack/oslo.context/src/branch/master/lower-constraints.txt#n13 : mock==2.0.0
+https://opendev.org/openstack/oslo.messaging/src/branch/master/lower-constraints.txt#n31 : mock==2.0.0
+https://opendev.org/openstack/oslo.policy/src/branch/master/lower-constraints.txt#n38 : requests-mock==1.2.0
+https://opendev.org/openstack/oslo.policy/src/branch/master/test-requirements.txt#n6 : requests-mock>=1.2.0 # Apache-2.0
+https://opendev.org/openstack/osprofiler/src/branch/master/lower-constraints.txt#n6 : mock===2.0.0
+https://opendev.org/openstack/ovn-octavia-provider/src/branch/master/lower-constraints.txt#n46 : mock==2.0.0
+https://opendev.org/openstack/ovsdbapp/src/branch/master/lower-constraints.txt#n21 : mock==2.0.0
+https://opendev.org/openstack/pbr/src/branch/master/lower-constraints.txt#n14 : mock==2.0.0
+https://opendev.org/openstack/pbr/src/branch/master/pbr/tests/testpackage/test-requirements.txt#n2 : requests-mock
+https://opendev.org/openstack/pbr/src/branch/master/test-requirements.txt#n8 : mock>=2.0.0 # BSD
+https://opendev.org/openstack/placement/src/branch/master/lower-constraints.txt#n31 : mock==2.0.0
+https://opendev.org/openstack/python-adjutantclient/src/branch/master/test-requirements.txt#n9 : mock>=2.0 # BSD
+https://opendev.org/openstack/python-adjutantclient/src/branch/master/test-requirements.txt#n10 : requests-mock>=0.7.0 # Apache-2.0
+https://opendev.org/openstack/python-barbicanclient/src/branch/master/lower-constraints.txt#n26 : mock==2.0.0
+https://opendev.org/openstack/python-barbicanclient/src/branch/master/lower-constraints.txt#n62 : requests-mock==1.2.0
+https://opendev.org/openstack/python-barbicanclient/src/branch/master/test-requirements.txt#n7 : requests-mock>=1.2.0 # Apache-2.0
+https://opendev.org/openstack/python-barbicanclient/src/branch/master/test-requirements.txt#n8 : mock>=2.0.0 # BSD
+https://opendev.org/openstack/python-blazarclient/src/branch/master/lower-constraints.txt#n15 : mock==3.0.0
+https://opendev.org/openstack/python-blazarclient/src/branch/master/test-requirements.txt#n5 : mock>=3.0.0 # BSD
+https://opendev.org/openstack/python-brick-cinderclient-ext/src/branch/master/lower-constraints.txt#n31 : mock==2.0.0
+https://opendev.org/openstack/python-cinderclient/src/branch/master/lower-constraints.txt#n19 : mock==2.0.0
+https://opendev.org/openstack/python-cinderclient/src/branch/master/lower-constraints.txt#n46 : requests-mock==1.2.0
+https://opendev.org/openstack/python-cinderclient/src/branch/master/test-requirements.txt#n10 : mock>=2.0.0 # BSD
+https://opendev.org/openstack/python-cinderclient/src/branch/master/test-requirements.txt#n12 : requests-mock>=1.2.0 # Apache-2.0
+https://opendev.org/openstack/python-cloudkittyclient/src/branch/master/lower-constraints.txt#n18 : mock==2.0 # BSD
+https://opendev.org/openstack/python-cloudkittyclient/src/branch/master/test-requirements.txt#n11 : mock>=2.0 # BSD
+https://opendev.org/openstack/python-cyborgclient/src/branch/master/test-requirements.txt#n14 : requests-mock>=0.6.0  # Apache-2.0
+https://opendev.org/openstack/python-designateclient/src/branch/master/lower-constraints.txt#n65 : requests-mock==1.2.0
+https://opendev.org/openstack/python-designateclient/src/branch/master/test-requirements.txt#n11 : requests-mock>=1.2.0 # Apache-2.0
+https://opendev.org/openstack/python-dracclient/src/branch/master/test-requirements.txt#n8 : requests-mock>=1.0
+https://opendev.org/openstack/python-glanceclient/src/branch/master/lower-constraints.txt#n29 : mock==2.0.0
+https://opendev.org/openstack/python-glanceclient/src/branch/master/lower-constraints.txt#n59 : requests-mock==1.2.0
+https://opendev.org/openstack/python-glanceclient/src/branch/master/test-requirements.txt#n14 : requests-mock>=1.2.0 # Apache-2.0
+https://opendev.org/openstack/python-heatclient/src/branch/master/lower-constraints.txt#n34 : mock==2.0.0
+https://opendev.org/openstack/python-heatclient/src/branch/master/lower-constraints.txt#n76 : requests-mock==1.2.0
+https://opendev.org/openstack/python-heatclient/src/branch/master/test-requirements.txt#n9 : requests-mock>=1.2.0 # Apache-2.0
+https://opendev.org/openstack/python-heatclient/src/branch/master/test-requirements.txt#n10 : mock>=2.0.0 # BSD
+https://opendev.org/openstack/python-ironic-inspector-client/src/branch/master/lower-constraints.txt#n65 : requests-mock==1.2.0
+https://opendev.org/openstack/python-ironic-inspector-client/src/branch/master/test-requirements.txt#n9 : requests-mock>=1.2.0 # Apache-2.0
+https://opendev.org/openstack/python-ironicclient/src/branch/master/lower-constraints.txt#n32 : mock==2.0.0
+https://opendev.org/openstack/python-ironicclient/src/branch/master/lower-constraints.txt#n77 : requests-mock==1.2.0
+https://opendev.org/openstack/python-ironicclient/src/branch/master/test-requirements.txt#n9 : requests-mock>=1.2.0 # Apache-2.0
+https://opendev.org/openstack/python-karborclient/src/branch/master/lower-constraints.txt#n32 : mock==2.0.0
+https://opendev.org/openstack/python-karborclient/src/branch/master/lower-constraints.txt#n71 : requests-mock==1.2.0
+https://opendev.org/openstack/python-karborclient/src/branch/master/test-requirements.txt#n12 : requests-mock>=1.2.0 # Apache-2.0
+https://opendev.org/openstack/python-keystoneclient/src/branch/master/lower-constraints.txt#n28 : mock==2.0.0
+https://opendev.org/openstack/python-keystoneclient/src/branch/master/lower-constraints.txt#n61 : requests-mock==1.2.0
+https://opendev.org/openstack/python-keystoneclient/src/branch/master/test-requirements.txt#n12 : mock>=2.0.0 # BSD
+https://opendev.org/openstack/python-keystoneclient/src/branch/master/test-requirements.txt#n16 : requests-mock>=1.2.0 # Apache-2.0
+https://opendev.org/openstack/python-magnumclient/src/branch/master/lower-constraints.txt#n43 : mock==2.0.0
+https://opendev.org/openstack/python-manilaclient/src/branch/master/lower-constraints.txt#n33 : mock==2.0.0
+https://opendev.org/openstack/python-manilaclient/src/branch/master/test-requirements.txt#n11 : mock>=2.0.0 # BSD
+https://opendev.org/openstack/python-masakariclient/src/branch/master/lower-constraints.txt#n27 : mock==2.0.0
+https://opendev.org/openstack/python-masakariclient/src/branch/master/lower-constraints.txt#n53 : requests-mock==1.2.0
+https://opendev.org/openstack/python-masakariclient/src/branch/master/test-requirements.txt#n12 : requests-mock>=1.2.0 # Apache-2.0
+https://opendev.org/openstack/python-mistralclient/src/branch/master/lower-constraints.txt#n41 : mock==2.0.0
+https://opendev.org/openstack/python-mistralclient/src/branch/master/lower-constraints.txt#n94 : requests-mock==1.2.0
+https://opendev.org/openstack/python-mistralclient/src/branch/master/test-requirements.txt#n8 : requests-mock>=1.2.0 # Apache-2.0
+https://opendev.org/openstack/python-muranoclient/src/branch/master/lower-constraints.txt#n34 : mock==2.0.0
+https://opendev.org/openstack/python-muranoclient/src/branch/master/lower-constraints.txt#n77 : requests-mock==1.1.0
+https://opendev.org/openstack/python-muranoclient/src/branch/master/test-requirements.txt#n8 : requests-mock>=1.1.0 # Apache-2.0
+https://opendev.org/openstack/python-neutronclient/src/branch/master/lower-constraints.txt#n93 : requests-mock==1.2.0
+https://opendev.org/openstack/python-neutronclient/src/branch/master/test-requirements.txt#n14 : requests-mock>=1.2.0 # Apache-2.0
+https://opendev.org/openstack/python-novaclient/src/branch/master/lower-constraints.txt#n88 : requests-mock==1.2.0
+https://opendev.org/openstack/python-novaclient/src/branch/master/test-requirements.txt#n14 : requests-mock>=1.2.0 # Apache-2.0
+https://opendev.org/openstack/python-octaviaclient/src/branch/master/lower-constraints.txt#n52 : requests-mock==1.2.0
+https://opendev.org/openstack/python-octaviaclient/src/branch/master/test-requirements.txt#n6 : requests-mock>=1.2.0 # Apache-2.0
+https://opendev.org/openstack/python-openstackclient/src/branch/master/lower-constraints.txt#n117 : requests-mock==1.2.0
+https://opendev.org/openstack/python-openstackclient/src/branch/master/test-requirements.txt#n10 : requests-mock>=1.2.0 # Apache-2.0
+https://opendev.org/openstack/python-qinlingclient/src/branch/master/lower-constraints.txt#n30 : mock==2.0.0
+https://opendev.org/openstack/python-qinlingclient/src/branch/master/lower-constraints.txt#n70 : requests-mock==1.5.2
+https://opendev.org/openstack/python-qinlingclient/src/branch/master/test-requirements.txt#n8 : requests-mock>=1.5.2 # Apache-2.0
+https://opendev.org/openstack/python-saharaclient/src/branch/master/lower-constraints.txt#n25 : mock==2.0.0
+https://opendev.org/openstack/python-saharaclient/src/branch/master/lower-constraints.txt#n62 : requests-mock==1.2.0
+https://opendev.org/openstack/python-saharaclient/src/branch/master/test-requirements.txt#n10 : requests-mock>=1.2.0 # Apache-2.0
+https://opendev.org/openstack/python-senlinclient/src/branch/master/lower-constraints.txt#n34 : mock==2.0.0
+https://opendev.org/openstack/python-senlinclient/src/branch/master/lower-constraints.txt#n80 : requests-mock==1.2.0
+https://opendev.org/openstack/python-senlinclient/src/branch/master/test-requirements.txt#n10 : requests-mock>=1.2.0 # Apache-2.0
+https://opendev.org/openstack/python-solumclient/src/branch/master/lower-constraints.txt#n15 : mock==2.0.0
+https://opendev.org/openstack/python-swiftclient/src/branch/master/lower-constraints.txt#n21 : mock==1.2.0
+https://opendev.org/openstack/python-swiftclient/src/branch/master/test-requirements.txt#n5 : mock>=1.2.0 # BSD
+https://opendev.org/openstack/python-tackerclient/src/branch/master/lower-constraints.txt#n22 : mock==2.0.0
+https://opendev.org/openstack/python-tackerclient/src/branch/master/lower-constraints.txt#n53 : requests-mock==1.2.0
+https://opendev.org/openstack/python-tackerclient/src/branch/master/test-requirements.txt#n10 : requests-mock>=1.2.0 # Apache-2.0
+https://opendev.org/openstack/python-tricircleclient/src/branch/master/lower-constraints.txt#n29 : mock==2.0.0
+https://opendev.org/openstack/python-tripleoclient/src/branch/master/lower-constraints.txt#n54 : mock==3.0.0
+https://opendev.org/openstack/python-tripleoclient/src/branch/master/lower-constraints.txt#n128 : requests-mock==1.2.0
+https://opendev.org/openstack/python-tripleoclient/src/branch/master/test-requirements.txt#n9 : mock>=3.0.0 # BSD
+https://opendev.org/openstack/python-tripleoclient/src/branch/master/test-requirements.txt#n12 : requests-mock>=1.2.0 # Apache-2.0
+https://opendev.org/openstack/python-troveclient/src/branch/master/lower-constraints.txt#n31 : mock==2.0.0
+https://opendev.org/openstack/python-troveclient/src/branch/master/lower-constraints.txt#n66 : requests-mock==1.2.0
+https://opendev.org/openstack/python-troveclient/src/branch/master/test-requirements.txt#n9 : requests-mock>=1.2.0 # Apache-2.0
+https://opendev.org/openstack/python-vitrageclient/src/branch/master/lower-constraints.txt#n21 : mock==2.0.0
+https://opendev.org/openstack/python-zaqarclient/src/branch/master/lower-constraints.txt#n30 : mock==2.0.0
+https://opendev.org/openstack/python-zaqarclient/src/branch/master/lower-constraints.txt#n60 : requests-mock==1.2.0
+https://opendev.org/openstack/python-zaqarclient/src/branch/master/test-requirements.txt#n9 : mock>=2.0.0 # BSD
+https://opendev.org/openstack/python-zaqarclient/src/branch/master/test-requirements.txt#n19 : requests-mock>=1.2.0 # Apache-2.0
+https://opendev.org/openstack/python-zunclient/src/branch/master/lower-constraints.txt#n44 : mock==2.0.0
+https://opendev.org/openstack/qinling/src/branch/master/lower-constraints.txt#n48 : mock==2.0.0
+https://opendev.org/openstack/qinling-dashboard/src/branch/master/test-requirements.txt#n16 : mock>=2.0.0 # BSD
+https://opendev.org/openstack/refstack/src/branch/master/test-requirements.txt#n6 : httmock>=1.2.4
+https://opendev.org/openstack/refstack/src/branch/master/test-requirements.txt#n7 : mock
+https://opendev.org/openstack/refstack-client/src/branch/master/test-requirements.txt#n7 : mock
+https://opendev.org/openstack/refstack-client/src/branch/master/test-requirements.txt#n9 : httmock
+https://opendev.org/openstack/renderspec/src/branch/master/test-requirements.txt#n8 : mock>=2.0.0 # BSD
+https://opendev.org/openstack/requirements/src/branch/master/test-requirements.txt#n11 : mock>=2.0.0 # BSD
+https://opendev.org/openstack/reviewstats/src/branch/master/test-requirements.txt#n7 : mock
+https://opendev.org/openstack/sahara/src/branch/master/lower-constraints.txt#n61 : mock==2.0.0
+https://opendev.org/openstack/sahara-plugin-ambari/src/branch/master/lower-constraints.txt#n60 : mock==2.0.0
+https://opendev.org/openstack/sahara-plugin-cdh/src/branch/master/lower-constraints.txt#n57 : mock==2.0.0
+https://opendev.org/openstack/sahara-plugin-mapr/src/branch/master/lower-constraints.txt#n57 : mock==2.0.0
+https://opendev.org/openstack/sahara-plugin-mapr/src/branch/master/test-requirements.txt#n12 : mock>=2.0.0 # BSD
+https://opendev.org/openstack/sahara-plugin-spark/src/branch/master/lower-constraints.txt#n60 : mock==2.0.0
+https://opendev.org/openstack/sahara-plugin-spark/src/branch/master/test-requirements.txt#n12 : mock>=2.0.0 # BSD
+https://opendev.org/openstack/sahara-plugin-storm/src/branch/master/lower-constraints.txt#n60 : mock==2.0.0
+https://opendev.org/openstack/sahara-plugin-storm/src/branch/master/test-requirements.txt#n12 : mock>=2.0.0 # BSD
+https://opendev.org/openstack/sahara-plugin-vanilla/src/branch/master/lower-constraints.txt#n60 : mock==2.0.0
+https://opendev.org/openstack/sahara-plugin-vanilla/src/branch/master/test-requirements.txt#n12 : mock>=2.0.0 # BSD
+https://opendev.org/openstack/sahara-tests/src/branch/master/test-requirements.txt#n11 : mock>=1.2 # BSD
+https://opendev.org/openstack/senlin/src/branch/master/lower-constraints.txt#n48 : mock==2.0.0
+https://opendev.org/openstack/senlin-dashboard/src/branch/master/lower-constraints.txt#n44 : mock==2.0.0
+https://opendev.org/openstack/shade/src/branch/master/lower-constraints.txt#n18 : mock==2.0.0
+https://opendev.org/openstack/shade/src/branch/master/lower-constraints.txt#n32 : requests-mock==1.2.0
+https://opendev.org/openstack/shade/src/branch/master/test-requirements.txt#n6 : mock>=2.0.0 # BSD
+https://opendev.org/openstack/shade/src/branch/master/test-requirements.txt#n9 : requests-mock>=1.2.0 # Apache-2.0
+https://opendev.org/openstack/solum/src/branch/master/lower-constraints.txt#n51 : mock==2.0.0
+https://opendev.org/openstack/solum-dashboard/src/branch/master/lower-constraints.txt#n44 : mock==2.0.0
+https://opendev.org/openstack/solum-dashboard/src/branch/master/test-requirements.txt#n7 : mock>=2.0.0 # BSD
+https://opendev.org/openstack/sushy/src/branch/master/lower-constraints.txt#n22 : mock==2.0.0
+https://opendev.org/openstack/sushy-cli/src/branch/master/lower-constraints.txt#n26 : mock==4.0.2
+https://opendev.org/openstack/sushy-tools/src/branch/master/lower-constraints.txt#n31 : mock==2.0.0
+https://opendev.org/openstack/swift/src/branch/master/lower-constraints.txt#n39 : mock==2.0
+https://opendev.org/openstack/swift/src/branch/master/lower-constraints.txt#n70 : requests-mock==1.2.0
+https://opendev.org/openstack/swift/src/branch/master/test-requirements.txt#n12 : mock>=2.0 # BSD
+https://opendev.org/openstack/swift/src/branch/master/test-requirements.txt#n19 : requests-mock>=1.2.0 # Apache-2.0
+https://opendev.org/openstack/swift-bench/src/branch/master/test-requirements.txt#n4 : mock>=1.0
+https://opendev.org/openstack/tacker/src/branch/master/lower-constraints.txt#n124 : requests-mock==1.2.0
+https://opendev.org/openstack/tacker/src/branch/master/test-requirements.txt#n21 : requests-mock>=1.2.0 # Apache-2.0
+https://opendev.org/openstack/taskflow/src/branch/master/lower-constraints.txt#n32 : mock==2.0.0
+https://opendev.org/openstack/taskflow/src/branch/master/test-requirements.txt#n29 : mock>=2.0.0 # BSD
+https://opendev.org/openstack/tempest-lib/src/branch/master/test-requirements.txt#n16 : mock>=1.2 # BSD
+https://opendev.org/openstack/tosca-parser/src/branch/master/lower-constraints.txt#n16 : mock==2.0.0
+https://opendev.org/openstack/tricircle/src/branch/master/lower-constraints.txt#n49 : mock==3.0.0
+https://opendev.org/openstack/tricircle/src/branch/master/lower-constraints.txt#n123 : requests-mock==1.2.0
+https://opendev.org/openstack/tricircle/src/branch/master/test-requirements.txt#n7 : mock>=3.0.0 # BSD
+https://opendev.org/openstack/tricircle/src/branch/master/test-requirements.txt#n9 : requests-mock>=1.2.0 # Apache-2.0
+https://opendev.org/openstack/tripleo-ci/src/branch/master/test-requirements.txt#n4 : mock
+https://opendev.org/openstack/tripleo-common/src/branch/master/lower-constraints.txt#n89 : requests-mock==1.2.0
+https://opendev.org/openstack/tripleo-common/src/branch/master/test-requirements.txt#n18 : requests-mock>=1.2.0 # Apache-2.0
+https://opendev.org/openstack/tripleo-heat-templates/src/branch/master/lower-constraints.txt#n54 : mock==2.0.0
+https://opendev.org/openstack/tripleo-heat-templates/src/branch/master/test-requirements.txt#n17 : mock>=2.0.0 # BSD
+https://opendev.org/openstack/tripleo-operator-ansible/src/branch/master/test-requirements.txt#n2 : mock>=2.0.0 # BSD
+https://opendev.org/openstack/tripleo-quickstart-extras/src/branch/master/roles/validate-tempest/files/bugcheck/test-requirements.txt#n1 : mock==2.0.0
+https://opendev.org/openstack/tripleo-quickstart-extras/src/branch/master/roles/validate-tempest/files/tempestmail/test-requirements.txt#n1 : mock==2.0.0
+https://opendev.org/openstack/trove/src/branch/master/lower-constraints.txt#n59 : mock==2.0.0
+https://opendev.org/openstack/ui-cookiecutter/src/branch/master/{{cookiecutter.repo_name}}/test-requirements.txt#n13 : mock>=2.0.0 # BSD
+https://opendev.org/openstack/validations-common/src/branch/master/lower-constraints.txt#n47 : mock==2.0.0
+https://opendev.org/openstack/virtualbmc/src/branch/master/lower-constraints.txt#n25 : mock==2.0.0
+https://opendev.org/openstack/vitrage/src/branch/master/lower-constraints.txt#n44 : mock==2.0.0
+https://opendev.org/openstack/vitrage/src/branch/master/lower-constraints.txt#n110 : requests-mock==1.4.0
+https://opendev.org/openstack/vitrage/src/branch/master/test-requirements.txt#n9 : requests-mock>=1.4.0 # Apache-2.0
+https://opendev.org/openstack/watcher/src/branch/master/lower-constraints.txt#n56 : mock==2.0.0
+https://opendev.org/openstack/zaqar/src/branch/master/lower-constraints.txt#n19 : mock==2.0.0
+https://opendev.org/openstack/zaqar/src/branch/master/test-requirements.txt#n8 : mock>=2.0.0 # BSD
+https://opendev.org/openstack/zaqar-ui/src/branch/master/lower-constraints.txt#n44 : mock==2.0.0
+https://opendev.org/openstack/zaqar-ui/src/branch/master/test-requirements.txt#n13 : mock>=2.0.0 # BSD
+https://opendev.org/openstack/zun-ui/src/branch/master/lower-constraints.txt#n42 : mock==2.0.0
+https://opendev.org/openstack/zun-ui/src/branch/master/test-requirements.txt#n13 : mock>=2.0.0 # BSD
+https://opendev.org/starlingx/openstack-armada-app/src/branch/master/python-k8sapp-openstack/k8sapp_openstack/test-requirements.txt#n10 : mock>=2.0.0 # BSD
+https://opendev.org/starlingx/openstack-armada-app/src/branch/master/python-k8sapp-openstack/k8sapp_openstack/test-requirements.txt#n15 : requests-mock>=0.6.0 # Apache-2.0
+https://opendev.org/x/collectd-openstack-plugins/src/branch/master/test-requirements.txt#n9 : mock
