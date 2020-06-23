@@ -1,0 +1,28 @@
+https://opendev.org/openstack/cinder/src/branch/master/cinder/volume/drivers/zadara.py#n371 : for child_object in objects.getchildren():
+https://opendev.org/openstack/ec2-api/src/branch/master/ec2api/api/image.py#n1005 : for fn_element in manifest.find('image').getiterator('filename')]
+https://opendev.org/openstack/keystoneauth/src/branch/master/keystoneauth1/tests/unit/matchers.py#n50 : return sorted(doc.getchildren(), key=lambda el: el.tag)
+https://opendev.org/openstack/masakari-monitors/src/branch/master/masakarimonitors/hostmonitor/host_handler/parse_cib_xml.py#n51 : child_list = self.cib_tag.getchildren()
+https://opendev.org/openstack/masakari-monitors/src/branch/master/masakarimonitors/hostmonitor/host_handler/parse_cib_xml.py#n61 : child_list = status_tag.getchildren()
+https://opendev.org/openstack/masakari-monitors/src/branch/master/masakarimonitors/hostmonitor/host_handler/parse_cib_xml.py#n94 : nvpair_tag_list = instance_attributes_tag.getchildren()
+https://opendev.org/openstack/masakari-monitors/src/branch/master/masakarimonitors/hostmonitor/host_handler/parse_cib_xml.py#n118 : child_list = primitive_tag.getchildren()
+https://opendev.org/openstack/masakari-monitors/src/branch/master/masakarimonitors/hostmonitor/host_handler/parse_cib_xml.py#n129 : child_list = group_tag.getchildren()
+https://opendev.org/openstack/masakari-monitors/src/branch/master/masakarimonitors/hostmonitor/host_handler/parse_cib_xml.py#n152 : child_list = self.cib_tag.getchildren()
+https://opendev.org/openstack/masakari-monitors/src/branch/master/masakarimonitors/hostmonitor/host_handler/parse_cib_xml.py#n163 : child_list = configuration_tag.getchildren()
+https://opendev.org/openstack/masakari-monitors/src/branch/master/masakarimonitors/hostmonitor/host_handler/parse_cib_xml.py#n175 : child_list = resources_tag.getchildren()
+https://opendev.org/openstack/masakari-monitors/src/branch/master/masakarimonitors/hostmonitor/host_handler/parse_crmmon_xml.py#n46 : child_list = self.crmmon_tag.getchildren()
+https://opendev.org/openstack/masakari-monitors/src/branch/master/masakarimonitors/hostmonitor/host_handler/parse_crmmon_xml.py#n56 : child_list = nodes_tag.getchildren()
+https://opendev.org/openstack/masakari-monitors/src/branch/master/masakarimonitors/tests/unit/hostmonitor/host_handler/test_handle_host.py#n615 : node_state_tag_list = status_tag.getchildren()
+https://opendev.org/openstack/masakari-monitors/src/branch/master/masakarimonitors/tests/unit/hostmonitor/host_handler/test_handle_host.py#n653 : node_state_tag_list = status_tag.getchildren()
+https://opendev.org/openstack/masakari-monitors/src/branch/master/masakarimonitors/tests/unit/hostmonitor/host_handler/test_handle_host.py#n713 : node_state_tag_list = status_tag.getchildren()
+https://opendev.org/openstack/masakari-monitors/src/branch/master/masakarimonitors/tests/unit/hostmonitor/host_handler/test_handle_host.py#n740 : node_state_tag_list = status_tag.getchildren()
+https://opendev.org/openstack/nova/src/branch/master/nova/virt/libvirt/config.py#n216 : for c in xmldoc.getchildren():
+https://opendev.org/openstack/nova/src/branch/master/nova/virt/libvirt/config.py#n284 : for c in xmldoc.getchildren():
+https://opendev.org/openstack/nova/src/branch/master/nova/virt/libvirt/config.py#n3329 : for c in xmldoc.getchildren():
+https://opendev.org/openstack/nova/src/branch/master/nova/virt/libvirt/config.py#n3331 : for sub in c.getchildren():
+https://opendev.org/openstack/nova/src/branch/master/nova/virt/libvirt/config.py#n3337 : for sub in c.getchildren():
+https://opendev.org/openstack/os-ken/src/branch/master/os_ken/tests/integrated/test_of_config.py#n238 : for e in tree.getiterator():
+https://opendev.org/openstack/swift/src/branch/master/swift/common/middleware/s3api/etree.py#n95 : root.extend(deepcopy(tree.getchildren()))
+https://opendev.org/openstack/swift/src/branch/master/test/functional/s3api/test_versioning.py#n61 : self.assertEqual(elem.getchildren(), [])
+https://opendev.org/openstack/swift/src/branch/master/test/functional/s3api/test_versioning.py#n111 : self.assertEqual(elem.getchildren(), [])
+https://opendev.org/openstack/swift/src/branch/master/test/unit/common/middleware/s3api/test_versioning.py#n45 : self.assertEqual(elem.getchildren(), [])
+https://opendev.org/openstack/vitrage/src/branch/master/vitrage/datasources/nagios/parser.py#n65 : columns = service_row.getchildren()

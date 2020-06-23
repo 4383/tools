@@ -1,2 +1,15 @@
-https://docs.python.org/3/library/xml.etree.elementtree.html#xml.etree.ElementTree.Element.getchildren
-https://docs.python.org/3/library/xml.etree.elementtree.html#xml.etree.ElementTree.Element.getiterator
+Remove elementtree deprecated methods
+
+All our supported runtimes [1] are compatible with the recommended
+alternatives.
+
+`Element.getchildren` [2] is deprecated since python 3.2 and will be removed
+in python 3.9, these changes switch usages to `list(elem)`.
+
+`Element.getiterator` [3] is deprecated since python 3.2 and will be removed
+in python 3.9, these changes switch usages to Element.iter() [4]
+
+[1] https://governance.openstack.org/tc/reference/runtimes/victoria.html#python-runtimes-for-train
+[2] https://docs.python.org/3/library/xml.etree.elementtree.html#xml.etree.ElementTree.Element.getchildren
+[3] https://docs.python.org/3/library/xml.etree.elementtree.html#xml.etree.ElementTree.Element.getiterator
+[4] https://docs.python.org/3/library/xml.etree.elementtree.html#xml.etree.ElementTree.Element.iter
