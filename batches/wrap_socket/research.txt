@@ -1,0 +1,1 @@
+beagle --debug search --ignore-comments -f link 'ssl.wrap_socket' | grep openstack

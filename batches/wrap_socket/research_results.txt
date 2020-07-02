@@ -1,0 +1,45 @@
+https://opendev.org/openstack/glance/src/branch/master/glance/common/client.py#n124 : ssl.wrap_socket(), which forces SSL to check server certificate against
+https://opendev.org/openstack/glance/src/branch/master/glance/common/client.py#n133 : self.sock = ssl.wrap_socket(sock, self.key_file, self.cert_file,
+https://opendev.org/openstack/glance/src/branch/master/glance/common/client.py#n136 : self.sock = ssl.wrap_socket(sock, self.key_file, self.cert_file,
+https://opendev.org/openstack/heat/src/branch/master/heat/common/wsgi.py#n239 : ssl.wrap_socket if conf specifies cert_file
+https://opendev.org/openstack/heat/src/branch/master/heat/common/wsgi.py#n414 : self.sock = ssl.wrap_socket(self._sock,
+https://opendev.org/openstack/heat/src/branch/master/heat/tests/api/test_wsgi.py#n416 : 'heat.common.wsgi.ssl.wrap_socket',
+https://opendev.org/openstack/heat/src/branch/master/heat/tests/api/test_wsgi.py#n449 : 'heat.common.wsgi.ssl.wrap_socket',
+https://opendev.org/openstack/heat/src/branch/master/heat/tests/api/test_wsgi.py#n460 : 'heat.common.wsgi.ssl.wrap_socket',
+https://opendev.org/openstack/heat-cfnclient/src/branch/master/heat_cfnclient/common/client.py#n133 : ssl.wrap_socket(), which forces SSL to check server certificate against
+https://opendev.org/openstack/heat-cfnclient/src/branch/master/heat_cfnclient/common/client.py#n142 : self.sock = ssl.wrap_socket(sock, self.key_file, self.cert_file,
+https://opendev.org/openstack/heat-cfnclient/src/branch/master/heat_cfnclient/common/client.py#n145 : self.sock = ssl.wrap_socket(sock, self.key_file, self.cert_file,
+https://opendev.org/openstack/monasca-agent/src/branch/master/monasca_agent/collector/checks_d/cert_check.py#n62 : ssl_sock = ssl.wrap_socket(sock, cert_reqs=ssl.CERT_REQUIRED,
+https://opendev.org/openstack/networking-l2gw/src/branch/master/networking_l2gw/services/l2gateway/agent/ovsdb/base_connection.py#n61 : ssl_sock = ssl.wrap_socket(
+https://opendev.org/openstack/networking-l2gw/src/branch/master/networking_l2gw/services/l2gateway/agent/ovsdb/base_connection.py#n123 : ssl_conn_stream = ssl.wrap_socket(
+https://opendev.org/openstack/nova/src/branch/master/nova/console/rfb/authvencrypt.py#n137 : wrapped_sock = ssl.wrap_socket(
+https://opendev.org/openstack/os-ken/src/branch/master/os_ken/lib/hub.py#n140 : handle(ssl.wrap_socket(sock, **ssl_args), addr)
+https://opendev.org/openstack/os-ken/src/branch/master/os_ken/lib/hub.py#n170 : client = ssl.wrap_socket(client, **self.ssl_args)
+https://opendev.org/openstack/os-ken/src/branch/master/os_ken/services/protocols/ovsdb/manager.py#n182 : server = ssl.wrap_socket(server, **ssl_kwargs)
+https://opendev.org/openstack/oslo.service/src/branch/master/oslo_service/sslutils.py#n104 : return ssl.wrap_socket(sock, **ssl_kwargs)  # nosec
+https://opendev.org/openstack/oslo.service/src/branch/master/oslo_service/tests/test_sslutils.py#n81 : @mock.patch("ssl.wrap_socket")
+https://opendev.org/openstack/project-config/src/branch/master/tools/check_irc_access.py#n164 : factory = irc.connection.Factory(wrapper=ssl.wrap_socket)
+https://opendev.org/openstack/python-cyborgclient/src/branch/master/cyborgclient/common/httpclient.py#n276 : ssl.wrap_socket(), which forces SSL to check server certificate against
+https://opendev.org/openstack/python-cyborgclient/src/branch/master/cyborgclient/common/httpclient.py#n295 : self.sock = ssl.wrap_socket(sock, **kwargs)
+https://opendev.org/openstack/python-glanceclient/src/branch/master/glanceclient/tests/unit/test_ssl.py#n52 : sock = ssl.wrap_socket(_sock,
+https://opendev.org/openstack/python-magnumclient/src/branch/master/magnumclient/common/httpclient.py#n289 : ssl.wrap_socket(), which forces SSL to check server certificate against
+https://opendev.org/openstack/python-magnumclient/src/branch/master/magnumclient/common/httpclient.py#n308 : self.sock = ssl.wrap_socket(sock, **kwargs)
+https://opendev.org/openstack/python-watcherclient/src/branch/master/watcherclient/common/httpclient.py#n441 : ssl.wrap_socket(), which forces SSL to check server certificate against
+https://opendev.org/openstack/python-watcherclient/src/branch/master/watcherclient/common/httpclient.py#n460 : self.sock = ssl.wrap_socket(sock, **kwargs)
+https://opendev.org/openstack/python-zunclient/src/branch/master/zunclient/common/httpclient.py#n277 : ssl.wrap_socket(), which forces SSL to check server certificate against
+https://opendev.org/openstack/python-zunclient/src/branch/master/zunclient/common/httpclient.py#n296 : self.sock = ssl.wrap_socket(sock, **kwargs)
+https://opendev.org/openstack/searchlight/src/branch/master/searchlight/common/wsgi.py#n128 : def ssl_wrap_socket(sock):
+https://opendev.org/openstack/searchlight/src/branch/master/searchlight/common/wsgi.py#n149 : return ssl.wrap_socket(sock, **ssl_kwargs)
+https://opendev.org/openstack/searchlight/src/branch/master/searchlight/common/wsgi.py#n161 : ssl.wrap_socket if conf specifies cert_file
+https://opendev.org/openstack/searchlight/src/branch/master/searchlight/common/wsgi.py#n505 : self.sock = ssl_wrap_socket(self._sock)
+https://opendev.org/openstack/senlin/src/branch/master/senlin/api/common/wsgi.py#n65 : ssl.wrap_socket if conf specifies cert_file
+https://opendev.org/openstack/senlin/src/branch/master/senlin/api/common/wsgi.py#n231 : self.sock = ssl.wrap_socket(self._sock,
+https://opendev.org/openstack/senlin/src/branch/master/senlin/tests/unit/api/common/test_wsgi.py#n286 : 'senlin.api.common.wsgi.ssl.wrap_socket',
+https://opendev.org/openstack/senlin/src/branch/master/senlin/tests/unit/api/common/test_wsgi.py#n317 : 'senlin.api.common.wsgi.ssl.wrap_socket',
+https://opendev.org/openstack/senlin/src/branch/master/senlin/tests/unit/api/common/test_wsgi.py#n328 : 'senlin.api.common.wsgi.ssl.wrap_socket',
+https://opendev.org/openstack/sushy-tools/src/branch/master/sushy_tools/static/main.py#n108 : httpd.socket = ssl.wrap_socket(
+https://opendev.org/openstack/swift/src/branch/master/swift/common/wsgi.py#n162 : ssl.wrap_socket if conf specifies cert_file
+https://opendev.org/openstack/swift/src/branch/master/swift/common/wsgi.py#n190 : sock = ssl.wrap_socket(sock, certfile=conf['cert_file'],
+https://opendev.org/openstack/swift/src/branch/master/test/unit/common/test_wsgi.py#n357 : self.assertEqual(wsgi.ssl.wrap_socket_called, [expected_kwargs])
+https://opendev.org/openstack/tacker/src/branch/master/tacker/wsgi.py#n237 : return ssl.wrap_socket(sock, **ssl_kwargs)
+https://opendev.org/openstack/tempest/src/branch/master/tempest/common/compute.py#n315 : client_socket = ssl.wrap_socket(client_socket)

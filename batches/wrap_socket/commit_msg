@@ -1,0 +1,19 @@
+Stop to use deprecated method ssl.wrap_socket
+
+ssl.wrap_socket is deprecated since python 3.7 and since python 3.2
+and 2.7.9 (released in 2014) it is recommended to use the
+SSLContext.wrap_socket() instead of wrap_socket() [1].
+
+The top-level function (`ssl.wrap_socket`) is limited and creates an insecure
+client socket without server name indication or hostname matching.
+
+These changes move away from `ssl.wrap_socket` as recommanded in the official
+documentation [1] by using `ssl.SSLContext.wrap_socket` [2].
+
+Python 2.7 is now officially unmaintained and support have been dropped
+previously in openstack, so now we only support python versions who are
+compatible with these changes [3].
+
+[1] https://docs.python.org/3/library/ssl.html#ssl.wrap_socket
+[2] https://docs.python.org/3/library/ssl.html#ssl.SSLContext.wrap_socket
+[3] https://governance.openstack.org/tc/reference/runtimes/victoria.html#python-runtimes-for-victoria
