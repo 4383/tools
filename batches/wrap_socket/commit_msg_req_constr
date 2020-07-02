@@ -1,7 +1,0 @@
-drop mock from lower-constraints and requirements
-
-The mock third party library was needed for mock support in py2
-runtimes. Since we now only support py36 and later, we don't need it
-in lower-constraints and requirements.
-
-These changes will help us to drop `mock` from openstack/requirements
