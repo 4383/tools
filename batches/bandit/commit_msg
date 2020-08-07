@@ -1,0 +1,6 @@
+Bump bandit version
+
+This patch bumps bandit allowed version to >=1.6.0,<1.7.0 in order to
+avoid the errors detailed here https://github.com/PyCQA/bandit/pull/393
+
+Signed-off-by: Moisés Guimarães de Medeiros <moguimar@redhat.com>
