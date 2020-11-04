@@ -1,0 +1,14 @@
+Use py3 as the default runtime for tox
+
+Moving on py3 as the default runtime for tox to avoid to update this at
+each new cycle.
+
+Wallaby support officially the following runtimes [1]:
+- Python 3.6
+- Python 3.8
+
+During Victoria Python 3.7 was used as the default runtime [2] however this
+version isn't longer officially supported.
+
+[1] https://governance.openstack.org/tc/reference/runtimes/wallaby.html#python-runtimes-for-wallaby
+[2] https://governance.openstack.org/tc/reference/runtimes/victoria.html#python-runtimes-for-victoria
