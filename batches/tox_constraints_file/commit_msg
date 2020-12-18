@@ -1,8 +1,10 @@
-Use TOX_CONSTRAINTS_FILE
+Replace deprecated UPPER_CONSTRAINTS_FILE variable
 
-UPPER_CONSTRAINTS_FILE is old name and deprecated
+UPPER_CONSTRAINTS_FILE is deprecated and TOX_CONSTRAINTS_FILE is
+the new environment variable name that replaces it [1].
+
 This allows to use upper-constraints file as more
 readable way instead of UPPER_CONSTRAINTS_FILE=<lower-constraints file>.
 
-[1] https://review.opendev.org/#/c/722814/
-[2] https://zuul-ci.org/docs/zuul-jobs/python-roles.html#rolevar-tox.tox_constraints_file
+[1] https://zuul-ci.org/docs/zuul-jobs/python-roles.html#rolevar-tox.tox_constraints_file
+[2] https://review.opendev.org/#/c/722814/
