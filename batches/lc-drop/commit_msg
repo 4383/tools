@@ -1,0 +1,10 @@
+Dropping lower constraints testing
+
+We facing errors related to the new pip resolver, this
+topic was discussed on the ML and QA team proposed to
+to test lower-constraints [1].
+
+I propose to drop this test because the complexity and recurring pain needed
+to maintain that now exceeds the benefits provided by this mechanismes.
+
+[1] http://lists.openstack.org/pipermail/openstack-discuss/2020-December/019390.html
